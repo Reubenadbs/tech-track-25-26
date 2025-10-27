@@ -11,3 +11,5 @@ Na een klein onderzoek blijkt de spotify API niet heel geschikt te zijn, zo is d
 Het alternatief is LastFM, dit is een API die je activiteit over meerdere platforms opneemt en omzet in data. Alleen is het probleem dat deze niet kan kijken naar de geschiedenis van je luisteractiviteit. Dus zou ik dan voor 3-4 weken mijn eigen activiteit moeten opnemenen en daar visualisaties mee moeten maken. Alleen is dit misschien niet genoeg data. 
 Na wat onderzoek ben ik erachter gekomen dat ik in 2-3 weken ongeveer 1.500 datapunten zou hebben. Ik ga dit plan meenemen in overweging maar ga nog even opzoek naar andere plannen.
 
+### Concept (Spotify x LastFM)
+Ik wil de API van Spotify en LastFM combineren om zo de geluisterde tracks te combineren met de data van Spotify over de moods van elk nummer. Ik doe dit omdat de Spotify oAuth API niet heel toegankelijk is voor gebruik maar de data over de nummers nog wel toegankelijk is. Zo kan ik mijn eigen luisterdata combineren met de data van de Spotify nummers van de Spotify API.
