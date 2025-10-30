@@ -18,3 +18,6 @@ Ik wil de API van Spotify en LastFM combineren om zo de geluisterde tracks te co
 Het tweede concept zou een DJ Dasboard zijn, in dit dashboard zou de DJ in eerste instantie een radar chart zien die gebruik maakt van BPM en Toonsoort voor de x en y axis en de populariteit van de plaat als grootte. In de radar chart zou je het huidige nummer kunnen kiezen en zou die gehighlight en ingezoomd worden om zo beter de omliggende tracks te zien. Hiernaast zou ik een paar kleine features willen hebben die de DJ zou helpen. 
 
 Origineel wilde ik hier een track matching programma van maken maar dit mocht niet. Dit is omdat het niet datavisualiserend genoeg is, het is dan alleen een algoritme. Dit wil ik aanpassen door er gewoon meerdere visualisaties van te maken.
+
+### Obstakels
+Tijdens het ophalen van de data uit de API van spotify liep ik tegen een probleem aan, dit probleem was dat tijdens het ophalen van de lijst van audiofeatures van bepaalde tracks, ik een foutmelding kreeg. De fout klonk als volgt: Fout: data.audio_features is not iterable (cannot read property undefined). 
